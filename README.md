@@ -30,3 +30,37 @@ Entrada padrão (stdin)
 
 Este projeto foi desenvolvido com fins educacionais, como prática de lógica de programação, manipulação de matrizes e estruturas de repetição em linguagem C.
 
+EN
+
+👑 King of Tiles
+
+King of Tiles is a competitive turn-based minigame for 4 players, where the goal is to dominate as many tiles as possible on a grid-based board. Each player represents a character and must strategically choose positions to mark territory — only one can be crowned the winner!
+
+🎮 How It Works
+
+The game starts with an empty Z x Z board, where Z is defined by the user.
+
+Four players take turns: Mario (M), Luis (L), Waldo (W), and Thomas (T).
+
+On each turn, a player selects a valid position (row, column).
+
+The selected move marks the entire row and column with the player's initial.
+
+Invalid moves (out of bounds or already taken) are rejected with a message.
+
+The game ends when there are no empty tiles left on the board.
+
+The player who performs the final move wins the game!
+
+🛠️ Technologies
+
+C Programming Language
+
+Command-line interface
+
+Standard input (stdin)
+
+📚 About the Project
+
+This project was developed for educational purposes, focusing on matrix manipulation, loops, and turn-based logic using the C language.
+
