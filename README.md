@@ -1,6 +1,6 @@
 🕹️ Jogo de Tabuleiro em C
 
-Este é um simples jogo de tabuleiro feito em linguagem C para 4 jogadores: Mario (M), Luis (L), Waldo (W) e Thomas (T). Cada jogador, em sua vez, escolhe uma posição no tabuleiro e "domina" sua linha e coluna.
+Este é um simples jogo de tabuleiro feito em linguagem C inspirado em King of Tiles para 4 jogadores: Mario (M), Luis (L), Waldo (W) e Thomas (T). Cada jogador, em sua vez, escolhe uma posição no tabuleiro e "domina" sua linha e coluna.
 
 🧠 Regras do Jogo
 
@@ -19,6 +19,7 @@ O jogador que preencher a última célula vazia vence.
 🛠️ Tecnologias
 
 Linguagem C
+
 Compilador gcc
 
 📄 Licença
