@@ -1,28 +1,32 @@
-🕹️ Jogo de Tabuleiro em C
+👑 King of Tiles
 
-Este é um simples jogo de tabuleiro feito em linguagem C inspirado em King of Tiles para 4 jogadores: Mario (M), Luis (L), Waldo (W) e Thomas (T). Cada jogador, em sua vez, escolhe uma posição no tabuleiro e "domina" sua linha e coluna.
+King of Tiles é um minigame competitivo para 4 jogadores, onde o objetivo é dominar o maior número possível de ladrilhos em um tabuleiro. Cada jogador representa um personagem e deve marcar posições estratégicas para conquistar território — e a vitória!
 
-🧠 Regras do Jogo
+🎮 Como funciona
 
-O jogo inicia com um tabuleiro vazio de dimensão Z x Z, definida pelo usuário.
+O jogo começa com um tabuleiro vazio de tamanho Z x Z, definido pelo jogador.
 
-Cada jogador escolhe uma posição (k, l).
+Quatro jogadores participam: Mario (M), Luis (L), Waldo (W) e Thomas (T).
 
-Ao jogar, a linha e a coluna da posição escolhida são marcadas com a letra do jogador.
+A cada turno, o jogador escolhe uma posição (linha, coluna) válida.
 
-A jogada é inválida se a posição estiver fora do tabuleiro ou já ocupada.
+Essa jogada marca toda a linha e toda a coluna da posição escolhida com a inicial do jogador.
 
-O jogo termina quando o tabuleiro estiver totalmente preenchido.
+Jogadas inválidas (fora do tabuleiro ou em posições já ocupadas) são ignoradas com aviso.
 
-O jogador que preencher a última célula vazia vence.
+O jogo termina quando não restam ladrilhos livres no tabuleiro.
 
-🛠️ Tecnologias
+O último jogador a preencher o tabuleiro é declarado vencedor!
+
+🛠️ Tecnologias usadas
 
 Linguagem C
 
-Compilador gcc
+Terminal (linha de comando)
 
-📄 Licença
+Entrada padrão (stdin)
 
-Este projeto é de uso educacional e livre para modificações.
+📚 Sobre o projeto
+
+Este projeto foi desenvolvido com fins educacionais, como prática de lógica de programação, manipulação de matrizes e estruturas de repetição em linguagem C.
 
